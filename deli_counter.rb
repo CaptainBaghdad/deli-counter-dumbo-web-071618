@@ -23,7 +23,7 @@ end
 
 def take_a_number(arr,str)
   
-  if arr.length != 0 
+  if arr.length == 0 
    arr << str
   end 
   
