@@ -27,5 +27,5 @@ def take_a_number(arr,str)
    arr << str
   end 
   
-  
+  arr
 end 
