@@ -11,10 +11,10 @@ def line(arr)
     s = "The line is currently:"
     arr.each_with_index do |person, inx|
       s+= " #{inx.to_i+1}. #{person}"
-     puts s
+     
       
     end 
-    
+    puts s
   end 
   
   
