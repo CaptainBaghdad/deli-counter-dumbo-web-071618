@@ -23,7 +23,7 @@ end
 
 def take_a_number(arr,str)
   arr << str
- 
+  puts "Welcome, #{str}. You are number #{arr.index(str)+1} in line."
   
   
 end 
