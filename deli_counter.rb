@@ -10,11 +10,11 @@ def line(arr)
   else 
     arr.each_with_index do |person, inx|
       s+= " #{inx.to_i+1}. #{person}"
-    
+     puts s
       
     end 
     
   end 
   
-  puts s
+  
 end 
