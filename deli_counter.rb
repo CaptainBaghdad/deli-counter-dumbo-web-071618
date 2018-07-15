@@ -9,12 +9,12 @@ def line(arr)
     
   else 
     arr.each_with_index do |person, inx|
-      puts "The line is currently: #{s}. #{person}"
-      s+=1
+      s+= " #{inx.to_i+1}. #{person}"
+    
       
     end 
     
   end 
   
-  
+  puts s
 end 
