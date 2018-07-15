@@ -8,7 +8,7 @@ def line(arr)
     puts  "The line is currently empty."
     
   else 
-    arr.each do |person|
+    arr.each_with_index do |ind, person|
       puts "The line is currently: #{s}. #{person}"
       s+=1
       
