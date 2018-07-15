@@ -14,7 +14,7 @@ def line(arr)
      
       
     end 
-    puts "#{}"
+    puts "#{s}"
   end 
   
   
